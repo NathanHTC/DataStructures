@@ -67,3 +67,15 @@ public:
         }
     }
 };
+
+int main(){
+    Stack myStack;
+    myStack.push(1);
+    myStack.push(2);
+    myStack.push(3);
+    while(!myStack.isEmpty()){
+        cout << myStack.peek() << endl;
+        myStack.pop();
+    }
+    
+}
